@@ -24,8 +24,9 @@ public class BLTest {
 	private static Train td2;
 	private static Train td3;
 	
-	private static TrainManager tm = new TrainManager();
 	private static TDriverManager tdm = new TDriverManager();
+	private static TrainManager tm = new TrainManager();
+	
 	@BeforeClass
 	public static void setUp() {
 		t1 = new TDriver("Janusz Moks", 1950);
